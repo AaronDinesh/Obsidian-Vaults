@@ -69,4 +69,8 @@ This uses the smoothing operator $\hat{O}_{s}(k) = 1+k^{-n}$. The paper chooses 
 
 ### Extending the LDL
 - Currently the LDL approach is trained to produce a very specific model (specific redshift and specific parameters). But we want to infer based on any redshift and any parameters.
-- We can do this by conditioning the weights 
+- We can do this by conditioning the weights on the following parameters: $\theta_{sim} = (\Omega_m, \sigma_8, A_{AGN1}, A_{AGN2}, A_{SN1}, A_{SN2})$. Then they also enforce that the baryonification depends on the redshift. 
+- They retrain the base LDL on the Cosmic Variation dataset and output a set of weights $\Theta_{fid}$. Then they use an MLP trained on the LH set to output a weight variation $\delta\Theta$. The LDL model weights are now:
+$$
+\Theta = \Theta_{fid} + \delta\Theta(\theta_{sim})
+$$

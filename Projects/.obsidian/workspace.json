@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "9b9904bcd22d3c87",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "496d9f6225f15a34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem-Proj-1/Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inferencene.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inferencene"
-            }
-          }
-        ]
-      },
-      {
         "id": "85ff074050e00532",
         "type": "tabs",
         "children": [
@@ -31,12 +11,14 @@
             "id": "3cd3b26caa04f37c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Sem-Proj-1/Papers/Cluster_cosmology_without_scaling_relations.pdf"
+                "file": "AiT/Vice President Onboarding.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-file-text",
-              "title": "Cluster_cosmology_without_scaling_relations"
+              "icon": "lucide-file",
+              "title": "Vice President Onboarding"
             }
           }
         ]
@@ -160,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SWARM/Llama.cpp RPC Build.md",
+                "file": "Sem-Proj-1/Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inferencene.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Llama.cpp RPC Build"
+              "title": "Outline of Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inferencene"
             }
           },
           {
@@ -184,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,9 +181,12 @@
   },
   "active": "3cd3b26caa04f37c",
   "lastOpenFiles": [
-    "Untitled.md",
     "Sem-Proj-1/Bypassing scaling relations with Lagrangian Deep Learning and Simulation-based inferencene.md",
+    "AiT/Vice President Onboarding.md",
     "Sem-Proj-1/Papers/Cluster_cosmology_without_scaling_relations.pdf",
+    "AiT",
+    "Untitled 1.md",
+    "Untitled.md",
     "GC.md",
     "Galaxy Clusters.md",
     "QanovaTech/New Project.md",
